@@ -1,0 +1,293 @@
+#main_container {
+	overflow: hidden;
+	width: 100%;
+	height: 1200px;
+}
+
+.logo_wrapper {
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+	margin-right: auto;
+}
+
+.logo {
+	display: block;
+	background: url("images/logo_black.png") no-repeat;
+	width: 172px;
+	height: 60px;
+	margin-top: 50px;
+}
+
+#box_container {
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -250px;
+	margin-right: auto; 
+}
+
+.wrapper {
+	position: relative;
+	display: block;
+	background: #f4f4f4;
+	border: 1px solid #cccccc;
+	width: 570px;
+	height: 1020px;
+}
+
+.text_wrapper {
+	text-align: left;
+	font-family: 'Verdana';
+	color: #333333;
+	font-size: 14px;
+	margin-top: 35px;
+	margin-left: 10px;
+	letter-spacing: -1px;
+}
+
+.subtext_wrapper {
+	text-align: left;
+	font-family: 'Verdana';
+	color: #333333;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+}
+
+.firstname_div {
+	font-family: Verdana;
+	font-size: small;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.firstname_div input[type="text"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.lastname_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.lastname_div input[type="text"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.username_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.usernamebox_div input[type="text"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.regemail_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.regemailbox_div input[type="email"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.password_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.passwordbox_div input[type="password"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.confpassword_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.confpasswordbox_div input[type="password"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.phone_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.phonebox_div input[type="text"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.dobbox_div {
+	font-family: Verdana;
+	font-size: small;
+	clear: both;
+	margin-left: 10px;
+}
+
+.dob_div input[type="text"] {
+	border: 1px solid #cacaca;
+	width: 310px;
+	height: 30px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.address_div {
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.addressbox_div input[type="text"] {
+	height: 30px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.country_div {
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.country_div .country_select {
+    font-family: Verdana;
+	height: 35px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.state_div {
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.state_div .state_select {
+	font-family: Verdana;
+	height: 35px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.city_div {
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.city_div input[type="text"] {
+	font-family: Verdana;
+	height: 35px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.zip_div {
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.zipbox_div input[type="text"] {
+	height: 35px;
+	width: 310px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+#button_div {
+	text-align: left;
+	margin-top: 22px;
+	margin-left: 95px;
+}
+
+#button_div .reg_button {
+	font-family: 'Swansea', helvetica;
+	width: 150px;
+	height: 30px;
+	font-weight: bold;
+	background: #383838;
+	color: #f4f4f4;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	clear: both;
+}

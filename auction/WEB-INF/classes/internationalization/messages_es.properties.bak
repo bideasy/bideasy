@@ -1,0 +1,93 @@
+login.label.signin=ingresar
+login.label.username = Nombre de usario
+login.label.password = Contraseña
+login.button.submit = Acceder
+login.link.problems= Forgot Password?
+login.link.register=Crear una cuenta
+
+home.label.welcome = Hola 
+home.label.or = o 
+home.link.login = Entrar 
+home.link.register = Registrar 
+home.link.browse = Navegar 
+home.link.chat = Chat
+home.link.sell = Venta 
+home.link.help = Ayuda 
+home.link.about = Acerca de 
+home.link.contact = Contacto 
+home.link.terms = Términos 
+home.link.feedback = Feedback
+
+register.label.title = Registro 
+register.label.subtitle = Comienza con BidEasy! 
+register.label.fname = Nombre 
+register.label.uname = Seleccione Nombre de usuario 
+register.label.lname = Apellido 
+register.label.pass = Contraseña 
+register.label.confirmpass = Confirmar Contraseña 
+register.label.phno = Número de teléfono 
+register.label.dob = Fecha de nacimiento 
+register.label.address = Dirección 
+register.label.country = País 
+register.label.state = Estado / Provincia 
+register.label.city = Ciudad 
+register.label.zipcode = Código Postal 
+register.label.email = E-mail 
+register.button.submit = Crear Cuenta!
+
+feedback.label.title = Realimentación
+feedback.label.subtitle = Cuéntanos lo que piensas acerca de la página web! Damos la bienvenida a todos sus comentarios y sugerencias.
+feedback.label.question1 = ¿Qué clase de comentario quiere enviar?
+feedback.label.praise = Alabanza
+feedback.label.suggestion = Sugerencia
+feedback.label.complaint = Queja
+feedback.label.question2 = Por favor, introduzca sus comentarios en el espacio siguiente
+feedback.label.question3 = Díganos cómo ponernos en contacto con usted
+feedback.label.email = E-mail
+feedback.button.submit = Enviar
+
+welcomepage.label.title = El registro es exitoso. 
+welcomepage.label.subtitle = Ingrese el código de verificación que fue enviada a su correo electrónico: 
+welcomepage.button.submit = Enviar
+
+forgotpass.label.title = ¿Olvidaste tu contraseña? 
+forgotpass.label.email = Dirección de correo electrónico: 
+forgotpass.button.submit = Enviar
+
+sell.label.title = Publicar un artículo 
+sell.label.subtitle = Publicación de un artículo es simple y fácil! 
+sell.label.pimage = Imagen del producto: 
+sell.label.pname = Nombre del producto: 
+sell.label.category = Categoría: 
+sell.label.reservedprice = Reservado Precio: 
+sell.label.startprice = Precio de Salida: 
+sell.label.pdesc = Descripción: 
+sell.label.sdate = Inicia: 
+sell.label.edate = Termina: 
+sell.label.pused = Se utiliza el producto? 
+sell.label.choiceyes = Sí 
+sell.label.choiceno = No se 
+sell.button.submit = Publique su artículo!
+sell.heading.postitem=publicar un artículo
+sell.subheading.postitem=Publicación de un artículo es simple y fácil!
+
+manageauction.label.imgzoom = Zoom 
+manageauction.label.productname = Nombre del producto 
+manageauction.label.productdesc = Descripción del producto 
+manageauction.label.productused = Producto Usado? 
+manageauction.label.auctioncreator = Creador Subasta 
+manageauction.label.startprice = inicio de la subasta Precio 
+manageauction.label.enddate = fin de la subasta Fecha
+manageauction.label.enterbidamount = Ingrese Cantidad de la oferta:
+manageauction.button.reviewauction = Revisar Subasta 
+manageauction.button.deleteauction = Borrar Subasta
+
+viewauction.label.title = Ver subastas
+viewauction.label.imgzoom = Zoom 
+viewauction.label.productname = Nombre del producto 
+viewauction.label.productdesc = Descripción del producto 
+viewauction.label.productused = Producto Usado? 
+viewauction.label.auctioncreator = Creador Subasta 
+viewauction.label.startprice = inicio de la subasta Precio 
+viewauction.label.enterbidamount = Ingrese Cantidad de la oferta: 
+viewauction.button.bidbutton = Oferta!

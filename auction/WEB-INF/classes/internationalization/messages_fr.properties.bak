@@ -1,0 +1,92 @@
+login.label.signin = Connexion 
+login.label.username = Nom d'utilisateur 
+login.label.password = Mot de passe 
+login.button.submit = Connectez-vous 
+login.link.problems = Mot de passe oubli\u00E9? 
+login.link.register = Cr\u00E9er un compte 
+
+home.label.welcome = Bonjour 
+home.label.or = ou 
+home.link.login = Connexion 
+home.link.register = S'inscrire 
+home.link.browse = Parcourir 
+home.link.chat = Chat 
+home.link.sell = vente 
+home.link.help = Aide 
+home.link.about = propos 
+home.link.contact = Contact 
+home.link.terms = Conditions 
+home.link.feedback = Commentaires
+
+register.label.title = Enregistrement 
+register.label.subtitle = Get a commenc\u00E9 avec BidEasy! 
+register.label.fname = Pr\u00E9nom 
+register.label.uname = Choisissez Nom d'utilisateur 
+register.label.lname = Nom 
+register.label.pass = Mot de passe 
+register.label.confirmpass = Confirmer mot de passe 
+register.label.phno = Num\u00E9ro de t\u00E9l\u00E9phone 
+register.label.dob = Date de naissance 
+register.label.address = Adresse 
+register.label.country = Pays 
+register.label.state = Etat / Province 
+register.label.city = Ville 
+register.label.zipcode = Code postal 
+register.label.email = E-mail
+register.button.submit = Cr\u00E9er un compte!
+
+feedback.label.title = Commentaires 
+feedback.label.subtitle = Dites-nous ce que vous pensez du site! Nous accueillons tous vos commentaires et suggestions. 
+feedback.label.question1 = Quel type de commentaire voulez-vous envoyer? 
+feedback.label.praise = Praise 
+feedback.label.suggestion = Suggestion 
+feedback.label.complaint = Plainte 
+feedback.label.question2 = S'il vous pla\u00EEt entrer vos commentaires dans l'espace pr\u00E9vu ci-dessous 
+feedback.label.question3 = Dites-nous comment entrer en contact avec vous 
+feedback.label.email = E-mail 
+feedback.button.submit = Envoyer
+
+welcomepage.label.title = L'enregistrement est r\u00E9ussi. 
+welcomepage.label.subtitle = Entrez le code de v\u00E9rification qui a \u00E9t\u00E9 envoy\u00E9 \u00E0 votre e-mail: 
+welcomepage.button.submit = Envoyer
+
+forgotpass.label.title = Mot de passe oubli\u00E9? 
+forgotpass.label.email = Adresse Email: 
+forgotpass.button.submit = Envoyer
+
+sell.label.title = Poster un article 
+sell.label.subtitle = Affichage d'un \u00E9l\u00E9ment est simple et facile! 
+sell.label.pimage = Image du Produit: 
+sell.label.pname = Nom du Produit: 
+sell.label.category = Cat\u00E9gorie: 
+sell.label.reservedprice = R\u00E9serv\u00E9 Prix: 
+sell.label.startprice = Prix de d\u00E9part: 
+sell.label.pdesc = Description: 
+sell.label.sdate = Date de d\u00E9but: 
+sell.label.edate = Date d'fin: 
+sell.label.pused = Est le produit utilis\u00E9? 
+sell.label.choiceyes = Oui 
+sell.label.choiceno = Non 
+sell.button.submit = Diffusez votre article!
+sell.heading.postitem=publier un élément
+
+manageauction.label.imgzoom = Zoom 
+manageauction.label.productname = Nom du produit 
+manageauction.label.productdesc = Description du produit 
+manageauction.label.productused = produit d'occasion? 
+manageauction.label.auctioncreator = Cr\u00E9ateur d'ench\u00E9res 
+manageauction.label.startprice = ench\u00E9res Prix de départ 
+manageauction.label.enddate = Date de fin de vente aux ench\u00E9res
+manageauction.label.enterbidamount = Entrez Montant minimum:  
+manageauction.button.reviewauction = avis ench\u00E9res 
+manageauction.button.deleteauction = Supprimer ench\u00E9res
+
+viewauction.label.title = Voir les ench\u00E9res
+viewauction.label.imgzoom = Zoom 
+viewauction.label.productname = Nom du produit 
+viewauction.label.productdesc = Description du produit 
+viewauction.label.productused = produit d'occasion? 
+viewauction.label.auctioncreator = Cr\u00E9ateur d'ench\u00E9res 
+viewauction.label.startprice = ench\u00E9res Prix de d\u00E9part 
+viewauction.label.enterbidamount = Entrez Montant minimum: 
+viewauction.button.bidbutton = Bid!

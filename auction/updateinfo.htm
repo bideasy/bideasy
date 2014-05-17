@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Profile</title>
+	<link href="styles.css" rel="stylesheet" />
+
+	<script type = "text/javascript" src = "JS/formvalidation.js"></script>
+</head>
+<body>
+	<div id = "box_container">
+		<div class = "black_logo_wrapper">
+			<a href = "main.htm" class = "black_logo"></a>
+		</div>
+		<form name = "updateinfo" method = "POST" id = "update_registration_form" action = "#" onsubmit = "/">
+			<div id = "updbox_container">
+				<div class = "update_wrapper">
+					<div class = "reg_text_wrapper">
+						<h2>Update information</h2>
+					</div>
+					<div class = "reg_text_wrapper">
+						<h4>Your information is crucial!</h4>
+					</div>
+					<!-- Upload Photo -->
+					<div class = "photo_div">
+						Upload your photo:
+						<input type = "file" name = "imgupload">
+					</div>
+					<!-- Address -->
+					<div class = "address_div">
+						<div class = "address1_div">
+							<label for = "addressbox1_field">Address Line #1: </label>
+							<div class = "addressbox_div">
+								<input type = "text" id = "address1_field" name = "addressbox1" required/>
+							</div>
+						</div>
+						<div class = "address1_div">
+							<label for = "addressbox2_field">Address Line #2: </label>
+							<div class = "addressbox_div">
+								<input type = "text" id = "address2_field" name = "addressbox2" />
+							</div>
+						</div>
+					</div>
+					<!-- /Address -->
+					<!-- City -->
+					<div class = "city_div">
+						<label for = "city_field">City: </label>
+						<div class = "citybox_div">
+							<input type = "text" id = "city_field" name = "city" required/>
+						</div>
+					</div>
+					<!-- /City -->
+					<!-- State/Province -->
+					<div class = "state_div">
+						<label for = "state_field">State/Province: </label>
+						<div class = "statebox_div">
+							<select class = "state_select">
+								<option value = "default">Select State</option>
+								<option value = "andaman">Andaman and Nicobar Islands</option>
+								<option value = "andhra">Andhra Pradesh</option>
+								<option value = "arunachal">Arunachal Pradesh</option>
+								<option value = "assam">Assam</option>
+								<option value = "bihar">Bihar</option>
+								<option value = "chandigarh">Chandigarh</option>
+								<option value = "chattisgarh">Chattisgarh</option>
+								<option value = "dadra">Dadra and Nagar Haveli </option>
+								<option value = "delhi">Delhi</option>
+								<option value = "goa">Goa</option>
+								<option value = "gujarat">Gujarat</option>
+								<option value = "haryana">Haryana</option>
+								<option value = "himachal">Himachal Pradesh</option>
+								<option value = "jammukashmir">Jammu and Kashmir</option>
+								<option value = "jharkhand">Jharkhand</option>
+								<option value = "karnataka">Karnataka</option>
+								<option value = "kerala">Kerala</option>
+								<option value = "lakshadweep">Lakshadweep</option>
+								<option value = "madhya">Madhya Pradesh</option>
+								<option value = "maharashtra">Maharashtra</option>
+								<option value = "manipur">Manipur</option>
+								<option value = "meghalaya">Meghalaya</option>
+								<option value = "mizoram">Mizoram</option>
+								<option value = "nagaland">Nagaland</option>
+								<option value = "orissa">Orissa</option>
+								<option value = "puducherry">Puducherry</option>
+								<option value = "punjab">Punjab</option>
+								<option value = "rajasthan">Rajasthan</option>
+								<option value = "sikkim">Sikkim</option>
+								<option value = "tamilnadu">Tamil Nadu</option>
+								<option value = "tripura">Tripura</option>
+								<option value = "uttar">Uttar Pradesh</option>
+								<option value = "uttarakhand">Uttarakhand</option>
+								<option value = "westbengal">West Bengal</option>
+							</select>
+						</div>
+					</div>
+					<!-- /State/Province -->
+					<!-- Password -->
+					<div class = "passwordu_div">
+						<label for = "password_field">Set Password: </label>
+						<div class = "passwordboxu_div">
+							<input type = "password" id = "password_field" name = "password" />
+						</div>
+					</div>
+					<!-- /Password -->
+					<!-- Confirm Password -->
+					<div class = "passwordu_div">
+						<label for = "password2_field">Confirm Password: </label>
+						<div class = "passwordboxu_div">
+							<input type = "password" id = "password2_field" name = "password2" />
+						</div>
+					</div>
+					<!-- /Password -->
+					<!-- Update Button -->
+					<div id = "reg_button_div">
+						<input type = "submit" value = "Update!" class = "reg_button" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	</body>
+</html>

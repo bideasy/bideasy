@@ -1,0 +1,71 @@
+#verification_container {
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -180px;
+	margin-right: auto; 
+	text-align: center;
+}
+
+#verification_wrapper {
+	position: relative;
+	display: block;
+	background: #f4f4f4;
+	border: 1px solid #cccccc;
+	width: 365px;
+	height: 250px;
+}
+
+.verification_title {
+	font-family: Verdana, sans-serif;
+	font-size: small;
+}
+
+.verify_text {
+	font-family: Verdana, sans-serif;
+	font-size: small;
+}
+
+.verify_code {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	margin-top: 14px;
+}
+
+.verify_textfield {
+	height: 30px;
+	width: 340px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+.welcome_button {
+	font-family: helvetica;
+	font-weight: bold;
+	width: 70px;
+	height: 30px;
+	background: #383838;
+	color: #f4f4f4;
+	border: none;
+	margin-top: 10px;
+	margin-left: 130px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.wlogo_wrapper {
+	position: relative;
+	left: 50%;
+	margin-left: -180px;
+	margin-right: auto;
+}
+
+.wlogo {
+	display: block;
+	background: url("images/logo_black.png") no-repeat;
+	width: 172px;
+	height: 60px;
+	margin-top: 120px;
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5"> 
+<welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+<session-config>
+		<session-timeout>3</session-timeout>
+	</session-config>
+
+   <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+
+	 <servlet>
+        <servlet-name>Dologin</servlet-name>
+        <servlet-class>Dologin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Dologin</servlet-name>
+        <url-pattern>/dologin</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+        <servlet-name>VerifyUser</servlet-name>
+        <servlet-class>VerifyUser</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VerifyUser</servlet-name>
+        <url-pattern>/verifyuser</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>ForgetPass</servlet-name>
+        <servlet-class>ForgetPass</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ForgetPass</servlet-name>
+        <url-pattern>/forgetPass</url-pattern>
+    </servlet-mapping>
+
+
+<servlet>
+        <servlet-name>Feedback</servlet-name>
+        <servlet-class>Feedback</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Feedback</servlet-name>
+        <url-pattern>/feedback</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>PostAuction</servlet-name>
+        <servlet-class>PostAuction</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PostAuction</servlet-name>
+        <url-pattern>/postauction</url-pattern>
+    </servlet-mapping>
+	<servlet>
+        <servlet-name>InsertImage</servlet-name>
+        <servlet-class>InsertImage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InsertImage</servlet-name>
+        <url-pattern>/insertimage</url-pattern>
+    </servlet-mapping>
+ <servlet>
+        <servlet-name>FeedbackResponse</servlet-name>
+        <servlet-class>FeedbackResponse</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FeedbackResponse</servlet-name>
+        <url-pattern>/feedbackresponse</url-pattern>
+    </servlet-mapping> 
+ <servlet>
+
+
+<servlet-name>PopulateTable</servlet-name> 
+  <servlet-class>PopulateTable</servlet-class> 
+  </servlet>
+
+ <servlet-mapping>
+  <servlet-name>PopulateTable</servlet-name> 
+  <url-pattern>/PopulateTable/*</url-pattern> 
+  </servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>Bid</servlet-name>
+        <servlet-class>Bid</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Bid</servlet-name>
+        <url-pattern>/bid</url-pattern>
+    </servlet-mapping>
+
+
+
+	<servlet>
+        <servlet-name>ReviewAuctions</servlet-name>
+        <servlet-class>ReviewAuctions</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReviewAuctions</servlet-name>
+        <url-pattern>/reviewauction</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

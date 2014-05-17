@@ -1,0 +1,127 @@
+#box_container {
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+}
+
+#box_holder {
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -180px;
+	margin-right: auto; 
+	text-align: center;
+}
+
+.box_wrapper {
+	position: relative;
+	display: block;
+	background: #f4f4f4;
+	border: 1px solid #cccccc;
+	width: 365px;
+	height: 370px;
+}
+
+.text_wrapper {
+	text-align: left;
+	font-family: 'Verdana';
+	color: #333333;
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	letter-spacing: -1px;
+}
+
+.user_div {
+	text-align: left;
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+}
+
+.userbox_div input[type="text"] {
+	height: 30px;
+	width: 340px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+.password_div {
+	text-align: left;
+	font-family: 'Verdana';
+	font-size: small;
+	margin-left: 10px;
+}
+
+.passwordbox_div input[type="password"] {
+	height: 30px;
+	width: 340px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+#button_div {
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+#button_div .login_button {
+	font-family: 'Swansea', helvetica;
+	width: 340px;
+	height: 30px;
+	font-weight: bold;
+	background: #383838;
+	color: #f4f4f4;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#box_holder .forgot_password {
+	text-align: left;
+	font-family: 'Verdana';
+	font-weight: normal;
+	font-size: small;
+	margin-left: 10px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+#box_holder .registration_link {
+	text-align: left;
+	font-family: 'Verdana';
+	font-weight: normal;
+	font-size: small;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+#box_holder a {
+	text-decoration: none;
+	color: #427fed;
+}
+
+#box_holder a:hover {
+	text-decoration: underline;
+}
+
+.logo_wrapper {
+	position: relative;
+	left: 50%;
+	margin-left: -180px;
+	margin-right: auto;
+}
+
+.logo {
+	display: block;
+	background: url("images/logo_black.png") no-repeat;
+	width: 172px;
+	height: 60px;
+	margin-top: 50px;
+}

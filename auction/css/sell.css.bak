@@ -1,0 +1,176 @@
+.blanket {
+	overflow: hidden;
+}
+
+#sell_container {
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -240px;
+	margin-right: auto; 
+	height: 640px;
+}
+
+#sell_wrapper {
+	overflow: ;
+	position: relative;
+	display: block;
+	background: #f4f4f4;
+	border: 1px solid #cccccc;
+	width: 480px;
+	height: 610px;
+}
+
+h2 {
+	text-align: left;
+	font-family: 'Verdana', sans-serif;
+	font-size: 18px;
+	color: #333;
+	letter-spacing: -1px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+}
+
+p {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.catfield_div {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.cat_select {
+	height: 35px;
+	width: 450px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-left: 10px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.datefield_div {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+}
+
+.left_datefield {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	float: left;
+	margin-left: 10px;
+}
+
+.right_datefield {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	float: right;
+	margin-right: 17px;
+}
+
+.datefield_div input[type="text"] {
+	border: 1px solid #cacaca;
+	width: 120px;
+	height: 30px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.photo_div {
+	font-family: Verdana;
+	font-size: small;
+	margin-left: 10px;
+}
+
+.cat_div {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	margin-left: 10px;
+	clear: both;
+}
+
+.left_pfc {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	float: left;
+	margin-left: 10px;
+}
+
+.right_pfc {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	float: right;
+	margin-right: 20px;
+}
+
+.price_field input[type="number"] {
+	border: 1px solid #cacaca;
+	width: 200px;
+	height: 30px;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	border: 1px solid #cacaca;
+	width: 446px;
+	border-radius: 3px;
+	resize: none;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+
+input[type="text"] {
+	border: 1px solid #cacaca;
+	width: 450px;
+	height: 30px;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+input[type="file"] {
+	border: 1px solid #cacaca;
+	width: 440px;
+	border-radius: 4px;
+	margin-top: 14px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.catfieldchoice_div {
+	font-family: 'Verdana', sans-serif;
+	font-size: small;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.catfield_choice {
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+.submit_button {
+	font-family: 'Swansea', helvetica;
+	height: 30px;
+	font-weight: bold;
+	background: #383838;
+	color: #f4f4f4;
+	border: none;
+	border-radius: 4px;
+	margin-top: .5em;
+	cursor: pointer;
+}
